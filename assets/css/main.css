@@ -1,5 +1,11 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
+@font-face {
+
+	src: url(Myfont-Regular.ttf);
+	font-family: mifuente;
+	
+}
 
 /*
 	Landed by HTML5 UP
@@ -144,6 +150,7 @@ input, select, textarea {
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 1em 0;
+		font-family: mifuente;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
