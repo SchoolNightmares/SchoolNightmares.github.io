@@ -118,7 +118,7 @@
 							<p>Déjanos aquí tus comentarios y sugerencias sobre el juego. ¡Tu opinión nos importa!</p>
 						</header>
 						
-						<form id="gform">
+						<form id="gform"  method="post" action="https://script.google.com/macros/s/AKfycbyffHuCw6-kW1Cgo9wz4ptcSkAi7B7c9JtUjVbwbY2IDUI_yo0-PWS4gf6wKtyx7mdHVQ/exec">
 							
       								<div class="form-group">
        									 <label for="firstName"> Nombre</label>
@@ -135,12 +135,11 @@
 								<div style="display:none" id="thankyou_message">
       									<h2><em>¡Gracias!</em> por contactarnos!
         								¡Tendremos en cuenta tus opiniones y sugerencias!</h2>
-								</div>				
+								</div>
+							
+							<button type="submit" onClick="location.href='index.html'">Enviar</button>
    
 						</form>
-						
-						<button onClick="window.location.reload();">Enviar</button>
-						
 					</div>
 				</section>
 
